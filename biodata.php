@@ -11,11 +11,11 @@
 <div class="form-wrapper">
   <h2>Form Biodata</h2>
 
-  <p>Nama:</p>
-  <input type="text" name="nama" value="Martina Putri Ayu" readonly>
+  <label for="nama">Nama:</label>
+<input type="text" id="nama" name="nama" value="Martina Putri Ayu" readonly>
 
-  <p>Tempat, Tanggal Lahir:</p>
-  <input type="text" name="ttl" value="Teluk Nyatu, 19 Maret 2007" readonly>
+  <label for="ttl">Tempat, Tanggal Lahir:</label>
+<input type="text" id="ttl" name="ttl" value="Teluk Nyatu, 19 Maret 2007" readonly>
 
   <p>Riwayat Sekolah (SD – Kuliah):</p>
   <table>
